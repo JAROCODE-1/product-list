@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main .img{
+    width: 200px;
+    height: 200px;
+}
+
+main .img:hover{
+    opacity: 60%;
+    transform: scale(1.50);
+    transition: ease-in 0.5s;
+}
+
+.container1{
+    display: flex;
+    gap: 20px;
+}
+@media only screen and (max-width:850px) {
+    .container1{
+        flex-direction: column;
+        align-items: center;
+    }
+    section .img {
+        width: 100%;
+    }
+    h6{
+        font-size: large;
+    }
+    p{
+        font-size: large;
+    }
+    section {
+        width: 70%
+    }
+}
+
